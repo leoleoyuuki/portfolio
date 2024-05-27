@@ -14,7 +14,7 @@ export default function About() {
             About Me
           </h1>
           <p className="text-2xl md:text-4xl font-extrabold pt-9 ">
-            Hello! I'm <span className="text-blue-600">Leonardo Yuuki Nakazone</span>
+            Hello! I&apos;m <span className="text-blue-600">Leonardo Yuuki Nakazone</span>
           </p>
           <p className="text-2xl md:text-4xl font-extrabold pt-9">
             A Full Stack Developer & Data Scientist from São Paulo, SP

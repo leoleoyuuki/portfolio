@@ -14,7 +14,7 @@ export default function Home() {
         Who Am I?
       </Link>
       <h1 className="text-6xl md:text-8xl font-extrabold tracking-wide pt-7 text-center">
-        Hi👋, I'm <span className="text-blue-600">Leo Yuuki</span>
+        Hi👋, I&apos;m <span className="text-blue-600">Leo Yuuki</span>
       </h1>
       <p className="text-2xl md:text-4xl font-extrabold pt-9 text-center">
         Full Stack Developer who likes to play with
