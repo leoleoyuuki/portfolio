@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <div className={` ${darkTheme ? 'text-white' : 'text-black bg-gray-100'}`}>
-        <div className={`flex w-4/5 m-auto flex-col min-h-screen  pt-20 ${darkTheme ? 'text-white' : 'text-black bg-gray-100'}`}>
+        <div className={`flex w-4/5 m-auto flex-col min-h-screen  pt-14 ${darkTheme ? 'text-white' : 'text-black bg-gray-100'}`}>
           <h1 className="text-6xl md:text-8xl font-extrabold tracking-wide pt-7 text-left">
             About Me
           </h1>

@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div className={`flex justify-between p-5 px-14 ${darkTheme ? 'text-white'  : 'text-black bg-gray-100'}`}>
       <Link href={'/'}>
-        <h1 className="font-extrabold text-3xl tracking-wider">
+        <h1 translate="no" className="font-extrabold text-3xl tracking-wider">
           L<span className="text-blue-600">/</span>Y
         </h1>
       </Link>
