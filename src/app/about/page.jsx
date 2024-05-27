@@ -20,7 +20,7 @@ export default function About() {
             A Full Stack Developer & Data Scientist from São Paulo, SP
           </p>
           <p className="text-xl md:text-2xl pt-7  max-w-4xl">
-            I'm an 18-year-old tech enthusiast currently studying at FIAP. I have a passion for building interactive web applications and exploring data science. My expertise lies in technologies like React, Next.js, Firebase, SKLearn, Java and more. I love to learn new skills and continuously improve my knowledge. You can find me on GitHub, LinkedIn and see my resume, to know more about me and my projects.
+            I am an 18-year-old tech enthusiast currently studying at FIAP. I have a passion for building interactive web applications and exploring data science. My expertise lies in technologies like React, Next.js, Firebase, SKLearn, Java and more. I love to learn new skills and continuously improve my knowledge. <span className="font-extrabold text-blue-500">Open to work and Freelances</span>, You can check my skills on GitHub, LinkedIn and see my resume, to know more about me and my projects.
           </p>
           <div className="mt-auto text-center pb-24">
             <nav className="flex items-center justify-center gap-5 pb-4">

@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className={`flex flex-col min-h-screen items-center pt-44 ${darkTheme ? 'text-white' : 'text-black bg-gray-100'}`}>
-      <Link href="about" className={`underline ${darkTheme ? 'text-blue-400 hover:text-blue-600' : 'text-blue-600 hover:text-blue-800'} transition-colors duration-200`} aria-label="About me">
+      <Link href="/about" className={`underline ${darkTheme ? 'text-blue-400 hover:text-blue-600' : 'text-blue-600 hover:text-blue-800'} transition-colors duration-200`} aria-label="About me">
         Who Am I?
       </Link>
       <h1 className="text-6xl md:text-8xl font-extrabold tracking-wide pt-7 text-center">
