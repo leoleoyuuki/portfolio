@@ -19,7 +19,7 @@ export default function Home() {
       <p className="text-2xl md:text-4xl font-extrabold pt-9 text-center">
         Full Stack Developer who likes to play with
       </p>
-      <p className="text-2xl md:text-4xl font-extrabold tracking-wide text-blue-600 pt-2 text-center">
+      <p translate="no" className="text-2xl md:text-4xl font-extrabold tracking-wide text-blue-600 pt-2 text-center">
         <Typewriter
           loop={0}
           words={[
