@@ -17,7 +17,7 @@ export default function Home() {
         Hi👋, I&apos;m <span className="text-blue-600">Leo Yuuki</span>
       </h1>
       <p className="text-2xl md:text-4xl font-extrabold pt-9 text-center">
-        Full Stack Developer who likes to play with
+        Full Stack Developer who likes to build stuff with
       </p>
       <p translate="no" className="text-2xl md:text-4xl font-extrabold tracking-wide text-blue-600 pt-2 text-center">
         <Typewriter
