@@ -16,8 +16,8 @@ export default function Header() {
       </Link>
       <button onClick={toggleTheme} aria-label="Toggle Dark Mode" className="transition-all focus:outline-none">
         {darkTheme ? 
-          <MdOutlineLightMode className="transition-all" size={42} /> : 
-          <MdOutlineDarkMode className="transition-all" size={42} />
+          <MdOutlineLightMode className="transition-opacity" size={42} /> : 
+          <MdOutlineDarkMode className="transition-opacity" size={42} />
         }
       </button>
     </div>

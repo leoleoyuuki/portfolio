@@ -12,8 +12,8 @@ body {
       rgb(30, 52, 81)
       )
     rgb(21, 34, 55);
-    overflow-y: hidden;
 }
+
 
 @layer utilities {
   .text-balance {
