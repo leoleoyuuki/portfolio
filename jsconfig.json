@@ -1,9 +1,11 @@
-// jsconfig.json ou tsconfig.json
 {
   "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     }
-  }
+  },
+  "exclude": ["node_modules"]
 }
