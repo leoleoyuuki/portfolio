@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <title>Meu Portfólio - Leoyuuki</title>
         <meta name="description" content="Leo Yuuki, desenvolvedor fullstack com foco em desenvolvimento web." />
         <meta name="keywords" content="Next.js, Portfólio, Desenvolvedor Web, React, Dev, Fullstack" />
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://leoyuuki.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta name="google-site-verification" content="guDvDUgUW4XwvKk0FKbUfVxNhsGZw7sEw82b3URb-hw" />
-      </Head>
+      </head>
       <ThemeProvider>
         <body className={inter.className}>
           <Header />
