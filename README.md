@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=005792&height=120&section=header"/>
+  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=005792&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Leonardo+Yuuki+Nakazone;I+am+from+São+Paulo,+SP;I+am+a+FullStack+Developer+And+Data+Scientist;Currently+studying+at+FIAP;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
-## Getting Started
 
-First, run the development server:
+<div align="center">  
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=leoleoyuuki&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Leonardo Yuuki Nakazone github stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leoleoyuuki&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![Leo's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=leoleoyuuki&bg_color=000000&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true)](https://github.com/leoleoyuki/github-readme-activity-graph)
+ 
+### Main skills:
+![Node.JS](https://img.shields.io/badge/-Node.JS-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
+![React.js](https://img.shields.io/badge/-React_/_React_Native-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
+![Next.js](https://img.shields.io/badge/next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=white)&nbsp;
+![[TypeScript]](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178c6)
+![Spring](https://img.shields.io/badge/spring-0D1117.svg?style=for-the-badge&logo=spring&logoColor=green)&nbsp;
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117.svg?style=for-the-badge&logo=scikit-learn&logoColor=orange)
+![Python](https://img.shields.io/badge/Python-0D1117.svg?style=for-the-badge&logo=python&logoColor=yellow)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+ 
+### Tools:
+![Visual Studio](https://img.shields.io/badge/-Visual%20Studio-0D1117?style=for-the-badge&logo=visual-studio&logoColor=C8A2C8&labelColor=0D1117)&nbsp;
+![Vscode](https://img.shields.io/badge/Vscode-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/-Git-0D1117?style=for-the-badge&logo=git&labelColor=0D1117)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
+![Windows](https://img.shields.io/badge/-Windows-0D1117?style=for-the-badge&logo=windows&labelColor=0D1117)&nbsp;
+![IntelliJ](https://img.shields.io/badge/Intellij%20Idea-0D1117?logo=intellij-idea&style=for-the-badge)&nbsp;
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Cloud:
 
-## Learn More
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0D1117?style=for-the-badge&logo=microsoft&logoColor=61DAFB)&nbsp;
 
-To learn more about Next.js, take a look at the following resources:
+ 
+### Other Knowledge:
+![FireBase](https://img.shields.io/badge/firebase-0D1117?style=for-the-badge&logo=firebase&logoColor=ffae42)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?logo=JavaScript&logoColor=ffff00&style=for-the-badge)&nbsp;
+![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp;
+![C#](https://img.shields.io/badge/-cSharp-0D1117?style=for-the-badge&logo=csharp&logoColor=purple&labelColor=0D1117)&nbsp; 
+![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
+![Tailwind](https://img.shields.io/badge/tailwindcss-0D1117.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Boostrap](https://img.shields.io/badge/-boostrap-0D1117?style=for-the-badge&logo=bootstrap&labelColor=0D1117)&nbsp;
+![MySQL](https://img.shields.io/badge/-mysql-0D1117?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
+![Figma](https://img.shields.io/badge/-figma-0D1117?style=for-the-badge&logo=figma&labelColor=0D1117)&nbsp;
+![Oracle](https://img.shields.io/badge/Oracle-0D1117?style=for-the-badge&logo=oracle&logoColor=white)&nbsp;
+![.Net](https://img.shields.io/badge/.NET-0D1117?style=for-the-badge&logo=.net&logoColor=white)&nbsp;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Studying in this moment:
+![Node.JS](https://img.shields.io/badge/-Node.JS-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
+![Spring](https://img.shields.io/badge/spring-0D1117.svg?style=for-the-badge&logo=spring&logoColor=white)&nbsp;
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)&nbsp;
+![React Native](https://img.shields.io/badge/React_Native-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![.Net](https://img.shields.io/badge/.NET-0D1117?style=for-the-badge&logo=.net&logoColor=white)&nbsp;
+![[TypeScript]](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178c6)
+![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<div align="center">
+<br><p align="centre"><b>Visitors Count</b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{leoleoyuuki}/count.svg" /></p> 
+<br></div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=005792&height=120&section=footer"/>
