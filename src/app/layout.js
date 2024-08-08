@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content="Leo Yuuki, desenvolvedor fullstack com foco em desenvolvimento web." />
         <meta property="og:url" content="https://leoyuuki.vercel.app/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="../public/img/next.svg"/>
         <meta name="google-site-verification" content="guDvDUgUW4XwvKk0FKbUfVxNhsGZw7sEw82b3URb-hw" />
       </Head>
       <ThemeProvider>
