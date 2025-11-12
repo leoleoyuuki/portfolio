@@ -134,6 +134,10 @@ const ActionButton = ({ href, children, icon: Icon, variant = "primary" }) => {
     secondary: darkTheme
       ? "bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500"
       : "bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600",
+
+    button: darkTheme
+      ? "bg-gradient-to-r from-blue-500 to-gray-400 hover:from-blue-400 hover:to-gray-300"
+      : "bg-gradient-to-r from-gray-400 to-blue-500 hover:from-gray-500 hover:to-blue-600",
   };
 
   return (
@@ -241,7 +245,7 @@ export default function Home() {
 
         {/* Action Buttons */}
         <div className="flex flex-col gap-4 w-full mt-4 px-2">
-          <ActionButton href="https://wa.me/5511957211546?text=Ol%C3%A1,%20quero%20criar%20um%20sistema%20para%20minha%20empresa%20%F0%9F%98%81" icon={FaRocket} variant="primary">
+          <ActionButton href="https://wa.me/5511957211546?text=Ol%C3%A1,%20quero%20criar%20um%20sistema%20para%20minha%20empresa%20%F0%9F%98%81" icon={FaRocket} variant="button">
             Desenvolver um sistema para minha empresa
           </ActionButton>
           <ActionButton href="https://wa.me/5511957211546?text=Ol%C3%A1,%20quero%20me%20tornar%20vendedor%20de%20um%20dos%20sistemas%20%F0%9F%98%81" icon={FaUsers} variant="secondary">
