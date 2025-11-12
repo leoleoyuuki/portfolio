@@ -11,7 +11,7 @@ export default function Header() {
     <div className={`flex justify-between p-5 px-14 ${darkTheme ? 'text-white'  : 'text-black bg-gray-100'}`}>
       <Link href={'/'}>
         <h1 translate="no" className="font-extrabold text-3xl tracking-wider">
-          L<span className="text-blue-600">/</span>Y
+          <span className="text-blue-600">_l</span>eoyuuki
         </h1>
       </Link>
       <button onClick={toggleTheme} aria-label="Toggle Dark Mode" className="transition-all focus:outline-none">
