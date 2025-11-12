@@ -8,16 +8,16 @@ export default function Header() {
   const { darkTheme, toggleTheme } = useTheme();
 
    return (
-     <div className={`flex justify-between items-center p-5 md:px-0 ${darkTheme ? 'text-white'  : 'text-black bg-gray-100'}`}>
+     <div className={`flex justify-between items-center py-3 px-3 md:px-14 ${darkTheme ? 'text-white'  : 'text-black bg-gray-100'}`}>
        <Link href={'/'}>
-         <h1 translate="no" className="font-extrabold text-3xl tracking-wider">
+         <h1 translate="no" className="font-extrabold text-2xl tracking-wider md:text-3xl">
            <span className="text-blue-600">_l</span>eoyuuki
          </h1>
        </Link>
        <button onClick={toggleTheme} aria-label="Toggle Dark Mode" className="transition-all focus:outline-none">
          {darkTheme ? 
-           <MdOutlineLightMode className="transition-opacity" size={42} /> : 
-           <MdOutlineDarkMode className="transition-opacity" size={42} />
+           <MdOutlineLightMode className="transition-opacity" size={33} /> : 
+           <MdOutlineDarkMode className="transition-opacity" size={33} />
          }
        </button>
      </div>

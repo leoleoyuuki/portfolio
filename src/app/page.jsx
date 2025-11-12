@@ -190,7 +190,7 @@ export default function Home() {
 
   return (
     <div
-      className={`min-h-screen py-8 px-4 transition-colors duration-300 ${
+      className={`min-h-screen py-6 px-4 transition-colors duration-300 ${
         darkTheme
           ? "bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
           : "bg-gradient-to-br from-gray-50 via-white to-gray-50"
@@ -212,7 +212,7 @@ export default function Home() {
           
           <div className="text-center space-y-2">
             <h1
-              className={`text-4xl font-bold bg-gradient-to-r ${
+              className={`text-3xl font-bold bg-gradient-to-r ${
                 darkTheme
                   ? "from-blue-400 to-blue-600"
                   : "from-blue-600 to-blue-400"
