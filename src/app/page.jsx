@@ -162,21 +162,21 @@ export default function Home() {
 
   const systems = [
     {
-      name: "AtelierFlow",
+      name: "AtelierFlow - Sistema para Ateliês",
       description: "Gerencie faturamento, pedidos, clientes e tarefas do seu ateliê. Pare de fazer o trabalho chato.",
       link: "https://crm-atelie.vercel.app/",
       icon: AtelierIcon,
       bgColor: "#B55B3C",
     },
     {
-      name: "BeautyFlow",
+      name: "BeautyFlow - Sistema para Área da Beleza",
       description: "Gerencie seu faturamento, clientes e procedimentos na área da beleza. Aumente seu faturamento recorrente.",
       link: "https://beautyflowerp.vercel.app/",
       icon: BeautyIcon,
       bgColor: "#C266FF",
     },
     {
-      name: "Fitflow",
+      name: "Fitflow - Sistema para Academias",
       description: "IA para academias criarem e gerenciarem os treinos de seus alunos. Retenha mais alunos na sua academia.",
       link: "https://www.fitflowpro.com.br/",
       icon: Dumbbell,
@@ -184,7 +184,7 @@ export default function Home() {
     },
     
     {
-      name: "AutoEstetica",
+      name: "AutoEstetica - Sistema para Estética Automotivas",
       description: "Gerencie o faturamento e clientes em estéticas automotivas. Aumente seu faturamento recorrente.",
       link: "https://crmautoestetica.netlify.app/",
       icon: FaCar,
