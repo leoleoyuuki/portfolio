@@ -192,6 +192,16 @@ export default function Home() {
     },
   ];
 
+  const skills = [
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "PostgreSQL",
+  ];
+
+
   return (
     <div
       className={`min-h-screen py-6 px-4 transition-colors duration-300 ${
@@ -241,6 +251,38 @@ export default function Home() {
               <SystemLink {...system} />
             </div>
           ))}
+        </div>
+
+        <div className="flex flex-col gap-6 w-full px-2">
+          <div
+            className={`rounded-2xl p-6 border transition-colors duration-300 ${
+              darkTheme
+                ? "bg-gray-900/40 border-gray-700/60"
+                : "bg-white border-gray-200 shadow-md"
+            }`}
+          >
+            <h2
+              className={`text-lg font-bold mb-4 ${
+                darkTheme ? "text-white" : "text-gray-900"
+              }`}
+            >
+              Skills
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              {skills.map((skill) => (
+                <span
+                  key={skill}
+                  className={`px-4 py-2 rounded-xl text-sm font-semibold ${
+                    darkTheme
+                      ? "bg-gray-800 text-gray-100 border border-gray-700"
+                      : "bg-gray-100 text-gray-700 border border-gray-200"
+                  }`}
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Action Buttons */}
