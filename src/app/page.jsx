@@ -192,6 +192,33 @@ export default function Home() {
     },
   ];
 
+  const skills = [
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "PostgreSQL",
+  ];
+
+  const experiences = [
+    {
+      role: "Desenvolvedor Full Stack",
+      company: "Flow Systems",
+      period: "2022 - Atual",
+    },
+    {
+      role: "Desenvolvedor Front-End",
+      company: "Studio Digital",
+      period: "2020 - 2022",
+    },
+    {
+      role: "Freelancer",
+      company: "Projetos próprios",
+      period: "2018 - 2020",
+    },
+  ];
+
   return (
     <div
       className={`min-h-screen py-6 px-4 transition-colors duration-300 ${
@@ -241,6 +268,76 @@ export default function Home() {
               <SystemLink {...system} />
             </div>
           ))}
+        </div>
+
+        <div className="flex flex-col gap-6 w-full px-2">
+          <div
+            className={`rounded-2xl p-6 border transition-colors duration-300 ${
+              darkTheme
+                ? "bg-gray-900/40 border-gray-700/60"
+                : "bg-white border-gray-200 shadow-md"
+            }`}
+          >
+            <h2
+              className={`text-lg font-bold mb-4 ${
+                darkTheme ? "text-white" : "text-gray-900"
+              }`}
+            >
+              Skills
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              {skills.map((skill) => (
+                <span
+                  key={skill}
+                  className={`px-4 py-2 rounded-xl text-sm font-semibold ${
+                    darkTheme
+                      ? "bg-gray-800 text-gray-100 border border-gray-700"
+                      : "bg-gray-100 text-gray-700 border border-gray-200"
+                  }`}
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div
+            className={`rounded-2xl p-6 border transition-colors duration-300 ${
+              darkTheme
+                ? "bg-gray-900/40 border-gray-700/60"
+                : "bg-white border-gray-200 shadow-md"
+            }`}
+          >
+            <h2
+              className={`text-lg font-bold mb-4 ${
+                darkTheme ? "text-white" : "text-gray-900"
+              }`}
+            >
+              Experiência
+            </h2>
+            <ul className="space-y-4">
+              {experiences.map((experience) => (
+                <li
+                  key={`${experience.role}-${experience.company}`}
+                  className={`flex flex-col gap-1 rounded-xl border p-4 ${
+                    darkTheme
+                      ? "border-gray-700 bg-gray-800/60 text-gray-200"
+                      : "border-gray-200 bg-gray-50 text-gray-700"
+                  }`}
+                >
+                  <span className="text-base font-semibold">
+                    {experience.role}
+                  </span>
+                  <span className="text-sm">
+                    {experience.company}
+                  </span>
+                  <span className="text-xs uppercase tracking-wide text-gray-400">
+                    {experience.period}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         {/* Action Buttons */}
